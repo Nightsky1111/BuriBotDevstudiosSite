@@ -1,5 +1,18 @@
 body{
-    background-color: skyblue;
+    background-color: lightblue;
+}
+
+h1{
+    color: gray;
+    text-align: center;    
+}
+
+h2{
+    color: gray;
     text-align: center;
-    color:white;
+}
+
+footer{
+    color: gray;
+    text-align: center;
 }
