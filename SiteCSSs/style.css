@@ -51,15 +51,18 @@ a {
 
 .under_bar {
     color: darkgray;
-    width: auto;
     position: fixed;
     bottom: 0;
     max-height: 200px;
+    border: 3px solid #73AD21;
 }
 
 @media screen and (max-with: 768px){
     .navbar{
         flex-direction: column;
         
+    }
+    .navbar__menu{
+        flex-direction: column;
     }
 }
