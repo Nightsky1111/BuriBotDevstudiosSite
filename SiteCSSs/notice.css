@@ -1,5 +1,6 @@
 body{
-    background-color: lightblue;
+    
+    margin: 0;
 }
 
 h1{
@@ -14,6 +15,26 @@ div{
     font-size: 21px;
 }
 
-a{
-    text-align: right;
+a {
+    text-decoration: none;
+    color: white;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    padding: 8px 12px
+}
+
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+}
+
