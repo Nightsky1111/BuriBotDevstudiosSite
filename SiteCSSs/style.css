@@ -49,3 +49,14 @@ a {
     
 }
 
+.under_bar {
+    color: darkgray;
+    width: auto;
+}
+
+@media screen and (max-with: 768px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+}
