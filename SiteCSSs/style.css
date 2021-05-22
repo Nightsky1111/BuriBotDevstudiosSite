@@ -52,13 +52,12 @@ a {
 .under_bar {
     display: flex;
     background-color: skyblue;
-    position: relative;
+    position: fixed;
     bottom: 0;
     max-height: 200px;
     width: 100%;
     padding: 30px 0;
     text-align: center;
-    
 }
 
 @media screen and (max-with: 768px){
