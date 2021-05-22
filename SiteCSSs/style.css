@@ -52,6 +52,9 @@ a {
 .under_bar {
     color: darkgray;
     width: auto;
+    position: fixed;
+    bottom: 0;
+    max-height: 200px;
 }
 
 @media screen and (max-with: 768px){
