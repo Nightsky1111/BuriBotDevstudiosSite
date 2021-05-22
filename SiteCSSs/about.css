@@ -1,0 +1,37 @@
+body{
+
+    margin: 0;
+}
+
+h1{
+    color: gray;
+    text-align: center;
+}
+
+div{
+    color: gray;
+    text-align: center;
+    font-size: 21px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 8px 12px;
+}
+
+@media screen and (max-with: 768px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+    .navbar__menu{
+        flex-direction: column;
+    }
+}
