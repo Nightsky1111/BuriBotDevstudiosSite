@@ -1,0 +1,19 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: gray;
+    text-align: center;
+    
+}
+
+div{
+    color: gray;
+    text-align: center;
+    font-size: 21px;
+}
+
+a{
+    text-align: right;
+}
