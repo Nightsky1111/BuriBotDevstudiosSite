@@ -61,7 +61,7 @@ a {
     text-align: center;
 }
 
-@media screen and (max-with: 800px){
+@media screen and (max-with: 768px){
     .navbar{
         flex-direction: column;
         
