@@ -61,12 +61,4 @@ a {
     text-align: center;
 }
 
-@media screen and (max-with: 768px){
-    .navbar{
-        flex-direction: column;
-        
-    }
-    .navbar__menu{
-        flex-direction: column;
-    }
-}
+
