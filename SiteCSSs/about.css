@@ -21,9 +21,24 @@ a{
 
 .navbar{
     display: flex;
+    
     justify-content: space-between;
     background-color: skyblue;
     padding: 8px 12px;
+}
+
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar li {
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: blue;
 }
 
 @media screen and (max-with: 768px){
