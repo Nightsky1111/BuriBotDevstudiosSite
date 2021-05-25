@@ -21,10 +21,10 @@ a{
 
 .navbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     background-color: skyblue;
-    padding: 8px 12px;
+    padding: 8px 12px
 }
 
 .navbar__menu{
@@ -33,7 +33,7 @@ a{
     padding-left: 0;
 }
 
-.navbar li {
+.navbar__menu li {
     padding: 8px 12px;
 }
 
