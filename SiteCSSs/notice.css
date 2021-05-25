@@ -38,6 +38,10 @@ a {
     padding: 8px 12px;
 }
 
+.navbar__menu li:hover{
+    background-color: aqua;
+}
+
 @media screen and (max-with: 768px){
     .navbar{
         flex-direction: column;

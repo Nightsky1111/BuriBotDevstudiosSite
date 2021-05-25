@@ -50,6 +50,10 @@ a {
     
 }
 
+.navbar__menu li:hover{
+    background-color: aqua;
+}
+
 .under_bar {
     display: flex;
     background-color: skyblue;
