@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
 }
 
@@ -24,7 +23,7 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: skyblue;
-    padding: 8px 12px
+    padding: 8px 12px;
 }
 
 .navbar__menu{
