@@ -9,16 +9,6 @@ h1{
     
 }
 
-h2{
-    color: gray;
-    text-align: center;
-}
-
-footer{
-    color: gray;
-    text-align: center;
-}
-
 div{
     color: gray;
     text-align: center;
@@ -46,10 +36,18 @@ a {
 
 .navbar__menu li {
     padding: 8px 12px;
-    
-    
 }
 
 .navbar__menu li:hover{
     background-color: aqua;
+}
+
+@media screen and (max-with: 768px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+    .navbar__menu{
+        flex-direction: column;
+    }
 }
