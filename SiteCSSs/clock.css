@@ -1,13 +1,20 @@
 body{
+    
     margin: 0;
 }
 
 h1{
     color: gray;
     text-align: center;
+    
 }
 
 h2{
+    color: gray;
+    text-align: center;
+}
+
+footer{
     color: gray;
     text-align: center;
 }
@@ -18,7 +25,7 @@ div{
     font-size: 21px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
@@ -26,7 +33,9 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 8px 12px;
+    align-items: center;
+    background-color: skyblue;
+    padding: 8px 12px
 }
 
 .navbar__menu{
@@ -35,11 +44,12 @@ a{
     padding-left: 0;
 }
 
-.navbar__menu li{
+.navbar__menu li {
     padding: 8px 12px;
+    
+    
 }
 
 .navbar__menu li:hover{
     background-color: aqua;
 }
-
