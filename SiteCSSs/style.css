@@ -160,5 +160,8 @@ img {
     }
 }
 .slide_img{
-    width: 100%;
+    width: 80%;
+}
+.discord_tag{
+    font-size: x-small
 }
