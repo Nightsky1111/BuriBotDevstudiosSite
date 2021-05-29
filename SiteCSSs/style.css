@@ -64,7 +64,6 @@ a {
 }
 .navbar_logo2 {
     width: 100px;
-    float: left
 }
 
 
@@ -185,7 +184,4 @@ img {
     width:auto;
     background-color:aqua;
     margin: 0;
-}
-.left_logo{
-    width: 50%;
 }
