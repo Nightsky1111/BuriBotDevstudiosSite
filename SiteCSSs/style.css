@@ -180,3 +180,7 @@ img {
     -moz-filter: grayscale(0%);
     -moz-transition: .5s ease-in-out;
 }
+.explain{
+    width:auto;
+    background-color:aqua;
+}
