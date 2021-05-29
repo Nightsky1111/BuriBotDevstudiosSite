@@ -55,7 +55,7 @@ a {
 .under_bar {
     display: flex;
     background-color: skyblue;
-    position: fixed;
+    position: relative;
     bottom: 0;
     max-height: 200px;
     width: 100%;
