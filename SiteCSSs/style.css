@@ -159,9 +159,20 @@ img {
         font-size: 11px
     }
 }
-.slide_img{
+.slide_img {
     width: 80%;
+    -webkit-filter: grayscale(70%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(70%);
+    -moz-transition: .5s ease-in-out;
 }
 .discord_tag{
     font-size: x-small
+}
+.slide_img:hover {
+    width:82%;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
 }
