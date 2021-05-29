@@ -77,6 +77,10 @@ body {
 
 .mySlides {
     display: none;
+    -webkit-filter: grayscale(70%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(70%);
+    -moz-transition: .5s ease-in-out;
 }
 
 img {
