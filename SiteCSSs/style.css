@@ -79,7 +79,9 @@ body {
 .mySlides {
     display: none;
     -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
     -webkit-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
     -moz-filter: grayscale(70%);
     -moz-transition: .5s ease-in-out;
 }
@@ -167,7 +169,9 @@ img {
 .slide_img {
     width: 80%;
     -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
     -webkit-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
     -moz-filter: grayscale(100%);
     -moz-transition: .5s ease-in-out;
 }
@@ -177,7 +181,9 @@ img {
 .slide_img:hover {
     width:82%;
     -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
     -webkit-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
     -moz-filter: grayscale(0%);
     -moz-transition: .5s ease-in-out;
 }
