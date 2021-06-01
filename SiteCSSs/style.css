@@ -168,7 +168,7 @@ img {
 }
 .slide_img {
     width: 80%;
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
             
     transition: .5s ease-in-out;
             
@@ -180,9 +180,9 @@ img {
 }
 .slide_img:hover {
     width:82%;
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
             
-    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
             
     -moz-filter: grayscale(0%);
     -moz-transition: .5s ease-in-out;
