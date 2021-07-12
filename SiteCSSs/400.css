@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+
+.topErrorcode{
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.midErrcomment{
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}

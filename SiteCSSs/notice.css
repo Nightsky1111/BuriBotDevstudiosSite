@@ -1,5 +1,4 @@
 body{
-    
     margin: 0;
 }
 
@@ -29,6 +28,7 @@ a {
 }
 
 .navbar__menu{
+    background-color: #4a4948;
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -39,16 +39,7 @@ a {
 }
 
 .navbar__menu li:hover{
-    background-color: aqua;
+    background-color: #73716f;
 }
 
-@media screen and (max-with: 768px){
-    .navbar{
-        flex-direction: column;
-        
-    }
-    .navbar__menu{
-        flex-direction: column;
-    }
-}
 
