@@ -195,8 +195,9 @@ img {
     background-color: aqua;
     margin: 0;
 }
-.burger-check {
-    display: none;
+
+.ToggleBtn{
+    display: flex;
 }
 
 
@@ -228,7 +229,7 @@ img {
         justify-content: center;
         width: 100%;
     }
-    .TogggleBtn{
+    .ToggleBtn{
         color: white;
         display: block;   
         padding-top: 5px;
